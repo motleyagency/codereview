@@ -1,7 +1,12 @@
+
 require 'sinatra'
 
+
+
 get "/" do
-  "hey wadapp, fool?"
+   # comments are always bad
+      
+    "sddhey wadapp, fool?"
 end
 
 get "/iam/:mood" do
