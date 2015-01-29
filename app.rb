@@ -1,18 +1,7 @@
 require 'sinatra'
 
-
-
-
-
-
-
-
-
-
-
-
 get "/" do
-  "h         ey wadapp, fool?"
+  "hey wadapp, fool?"
 end
 
 get "/iam/:mood" do
