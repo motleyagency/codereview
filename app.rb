@@ -4,7 +4,7 @@ get "/" do
   "hey wadapp, fool?"
 end
 
-get "/iam" do
-  "good"
+get "/iam/:mood" do
+  "Hey, I'm #{params[:mood]}, man!"
 end
 
